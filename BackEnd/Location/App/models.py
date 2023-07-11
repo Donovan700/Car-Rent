@@ -10,4 +10,4 @@ class Location(models.Model):
     Taux_Journalier = models.IntegerField(max_length=20)
 
     def __str__(self):
-        return '__all__'
+        return self.nom_loc
